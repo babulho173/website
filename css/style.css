@@ -1,0 +1,402 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+</style>
+
+/*global css code strat from hear*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Source Sans 3', sans-serif;
+	font-size: 16px;
+
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+/*global css code end*/
+
+
+/*header-section css*/
+
+.header-section{
+width: 100%;
+background: url(../img/banner.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 30px 0px;
+height: auto;
+}
+
+.main-header{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;	
+
+}
+
+.img-part img{
+margin-left: 10px;
+}
+
+.navber ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+}
+
+
+.navber ul li:hover{
+	background: url(../img/mhov.png) center bottom no-repeat;
+}
+
+/*banner-section css*/
+.banner-section{
+	width: 100%;
+padding: 90px 0px;
+}
+
+.title{
+    margin-top: 25px;
+    flex-basis: 50%;
+}
+
+.title p.blue{
+    font-size: 16px;
+    line-height: 26px;
+    
+    color: #0d6efd;
+    margin-top: 10px;
+}
+
+.title h1{
+	    font-size: 43px;
+    line-height: 49px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.title p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #7f7f7f;	
+}
+
+
+.pair-btn{
+  padding-top: 50px;  
+}
+
+
+.pair-btn a{
+    padding: 15px 18px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+     color: #fff;
+     border-radius: 3px;
+     margin-right: 10px;   
+}
+
+.pair-btn a.d-btn{
+background-color: #0d6efd;
+transition: 0.2s;
+}
+
+.pair-btn a.d-btn:hover{
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+.pair-btn a.v-btn{
+  background-color: transparent;
+  transition: 0.2s;  
+}
+
+.pair-btn a.v-btn:hover{
+  background-color: #0d6efd;
+  transition: 0.2s;  
+}
+
+
+.blank-part{
+flex-basis: 50%;
+}
+
+/*feature-section css*/
+
+.feature-section{
+        width: 100%;
+    background-color: #fff;
+    padding: 60px 0px;
+    margin-bottom: 10px;
+}
+
+.product{
+    justify-content: center;
+    text-align: center;
+}
+
+.product p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #008ed6;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+
+.product h2{
+font-size: 34px;
+    font-weight: 600;
+    line-height: 46px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.product img{
+margin-bottom: 35px;
+}
+
+.pic{
+margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second{
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.second img{
+ margin-bottom: 30px;   
+}
+
+.second h4{
+     font-size: 22px;
+    margin-bottom: 30px;
+    color: #000;   
+}
+
+.second p{
+ font-size: 15px;
+    line-height: 25px;
+    color: #7f7f7f;   
+}
+
+
+/*madrasa-section */
+
+.madrasa-section{
+width: 100%;
+background-color: #fff;
+padding: 60px 0px 30px;
+}
+
+.kashmir{
+   align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile{
+
+}
+
+.mobile img{
+width: 100%;
+height: auto;
+}
+
+.pragrap{
+    padding-bottom: 100px;
+}
+
+.pragrap h5{
+  font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #008ed6;
+    margin-bottom: -15px;  
+}
+
+.pragrap h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #000;
+       margin-bottom: 0px;
+}
+
+.pragrap img{
+    
+}
+
+.pragrap p{
+  font-size: 15px;
+    line-height: 25px;
+    color: #7f7f7f;  
+}
+
+
+.pragrap ul{
+    list-style-type: none;
+}
+
+.pragrap ul li{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 400; 
+}
+
+/*tetuliya-section css*/
+
+.tetuliya-section{
+    width: 100%;
+background-color: #f2f2f2;
+padding: 30px 0px 20px;
+}
+
+.khagrachuri{
+    display: flex;
+    align-items: center;
+}
+
+.main-title h5{
+font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #008ed6;
+     margin-bottom: 10px;
+}
+
+
+.main-title h2{
+    font-size: 34px;
+    font-weight: 600;
+    color: #000;
+        margin-bottom: 20px;
+}
+
+.main-title img{
+    margin-bottom: 20px;
+}
+
+
+.main-title p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #7f7f7f;
+    
+}
+
+.logo img{
+width: 100%;
+height: auto;
+}
+
+.bonani-section{
+background: url(../img/banner2.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+}
+
+.top-part{
+margin-top: -25px;
+    text-align: center;
+   padding-top: 60px;
+}
+
+
+.top-part h6{
+     font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #008ed6;
+    margin-bottom: 10px;   
+}
+
+
+.top-part h2{
+        font-size: 34px;
+    font-weight: 600;
+    line-height: 46px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+    
+
+
+
+.top-part img{
+    
+}
+
+.item{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
